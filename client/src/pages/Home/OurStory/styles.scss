@@ -1,0 +1,33 @@
+.our-story{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .story-content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        span{
+            color: red;
+            font-size: 2rem;
+        }
+        h3{
+            font-weight: 600;
+            font-size: 3.5rem;
+        }
+        p{
+            color: #6a6a6a;
+            font-size: 1rem;
+        }
+        a{
+            text-decoration: none;
+            color: inherit
+        }
+    }
+    img{
+        border-radius: 12px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

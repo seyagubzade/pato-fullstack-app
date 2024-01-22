@@ -1,0 +1,19 @@
+header {
+  background: #fff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  ul {
+    margin: 0;
+    li {
+      display: inline-block;
+      padding: 12px;
+      a{
+        text-decoration: none;
+        color: inherit;
+        font-size: 16px;
+      }
+    }
+  }
+}
